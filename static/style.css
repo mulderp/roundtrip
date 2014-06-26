@@ -1,0 +1,30 @@
+    .hidden {
+      opacity: 0;
+    }
+
+   .visible {
+      position: fixed;
+      top: 80;
+      left: 10;
+    }
+
+   .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 10px 0 10px 0;
+      background: white;
+      z-index: 10;
+      border-bottom: 1px #a1ff00 solid;
+    }
+
+    .header ul {
+      list-style: none;
+    }
+
+    .header ul li {
+      float: left;
+      width: 30%;
+    }
+
